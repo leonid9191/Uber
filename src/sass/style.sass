@@ -1,5 +1,5 @@
 *
-  font-family: 'Roboto', sans-serif
+  font-family: "Roboto", sans-serif
 
 header
   position: relative
@@ -20,8 +20,6 @@ nav
     font-family: Roboto
     font-size: 15px
     font-weight: 300
-
-    /* text-align: left;
 
   .menu_item
     border-right: 2px dotted black
@@ -77,8 +75,6 @@ nav
     color: #ffffff
     font-size: 14px
     font-weight: 400
-
-    /* text-align: center;
     text-transform: uppercase
 
 .promo
@@ -147,19 +143,25 @@ nav
   text-align: center
 
 .title
-    margin-bottom: 0
-    margin-top: 38px
-    color: #222222
-    font-size: 38px
-    font-weight: 700
-    text-transform: uppercase
-    text-align: center
+  margin-bottom: 0
+  margin-top: 38px
+  color: #222222
+  font-size: 38px
+  font-weight: 700
+  text-transform: uppercase
+  text-align: center
+  z-index: 2
+  &_white 
+        color: #fff
 
 .subtitle
-    color: #222222;
-    font-size: 17px;
-    font-weight: 400;
-    text-align: center;
+  color: #222222
+  font-size: 17px
+  font-weight: 400
+  text-align: center
+  z-index: 2
+  &_white 
+        color: #fff
 
 .reasons .reasons_block
   display: flex
@@ -193,26 +195,75 @@ nav
       line-height: 21px
 
 .mobile
-    min-height: 854px
+    min-height: 864px
     padding: 48px 0 79px 0
-    background: url('../img/bg/mobile_bg.png') center (center / cover) no-repeat
+    background: url("../img/bg/mobile_bg.png") center (center / cover) no-repeat
+
     .row
         margin-top: 32px
-    .mobile_item
+
+    &_item
+        position: relative
         width: 320px
         height: 280px
-        margin: 0 auto   
+        margin: 0 auto
+        margin-bottom: 19px
+        padding-top: 92px
         &_1
-            background: url('../img/bg/mobile1.png') center center/cover no-repeat
-        &_2
-            background: url('../img/bg/mobile2.png') center center/cover no-repeat
-        &_3
-            background: url('../img/bg/mobile3.png') center center/cover no-repeat
-        &_4
-            background: url('../img/bg/mobile4.png') center center/cover no-repeat
-        &_5
-            background: url('../img/bg/mobile5.png') center center/cover no-repeat
-        &_6
-            background: url('../img/bg/mobile6.png') center center/cover no-repeat
+            background: url("../img/bg/mobile1.png") center (center / cover) no-repeat
 
-            
+        &_2
+            background: url("../img/bg/mobile2.png") center (center / cover) no-repeat
+
+        &_3
+            background: url("../img/bg/mobile3.png") center (center / cover) no-repeat
+
+        &_4
+            background: url("../img/bg/mobile4.png") center (center / cover) no-repeat
+
+        &_5
+            background: url("../img/bg/mobile5.png") center (center / cover) no-repeat
+
+        &_6
+            background: url("../img/bg/mobile6.png") center (center / cover) no-repeat
+        &_subtitle
+            color: #ffffff
+            font-family: Roboto
+            font-size: 24px
+            font-weight: 400
+            text-align: center
+            text-transform: uppercase
+        &_plus
+            display: flex
+            justify-content: center
+            align-items: center
+            position: absolute
+            bottom: 35px
+            left: 50%
+            transform: translateX(-50%)
+            width: 26px
+            height: 26px
+            background-color: #000000
+            margin: 0 auto
+            border-radius: 100%
+            cursor: pointer
+
+.choice
+    min-height: 896px
+    padding: 57px 0 138px 0
+    background: url("../img/bg/choice_bg.png") center (center / cover) no-repeat
+    &_img 
+        position: relative
+        display: block
+        margin: 56px auto 0 auto
+        z-index: 2
+    &_descr 
+        text-align: center
+        color: #222222
+        font-size: 17px
+        font-weight: 300
+        line-height: 24px
+        
+
+
+
