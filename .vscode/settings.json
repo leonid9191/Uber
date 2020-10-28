@@ -1,0 +1,16 @@
+{
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.excludeLanguages": [
+
+        "markdown"
+    ],
+    "emmet.preferences": {
+    
+    },
+    "liveSassCompile.settings.excludeList": [
+
+        "**/node_modules/**",
+        ".vscode/**"
+    ],
+    "liveSassCompile.settings.autoprefix": []
+}
