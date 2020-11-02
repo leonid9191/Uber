@@ -12,5 +12,6 @@
         "**/node_modules/**",
         ".vscode/**"
     ],
-    "liveSassCompile.settings.autoprefix": []
+    "liveSassCompile.settings.autoprefix": [],
+    "git.ignoreLimitWarning": true
 }
